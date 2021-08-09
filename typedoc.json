@@ -1,0 +1,4 @@
+{
+    "entryPoints": ["./TypeScript/index.ts"],
+    "out": "docs"
+}

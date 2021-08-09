@@ -1,0 +1,16 @@
+{
+    "name": "accu-weather-api-wrapper",
+    "version": "1.0.0",
+    "description": "API wrapper of Accu Weather",
+    "main": "src/index.js",
+    "types": "src/index.d.ts",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1"
+    },
+    "devDependencies": {
+        "typedoc": "^0.21.5",
+        "typedoc-plugin-rename-defaults": "^0.3.0"
+    }
+}
