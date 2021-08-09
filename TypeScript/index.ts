@@ -49,7 +49,7 @@ export interface IInitOptions {
 }
 
 /**
- * Client with all API
+ * A client that provides an interface to all apis
  */
 export default class AccuWeatherClient {
     /**
