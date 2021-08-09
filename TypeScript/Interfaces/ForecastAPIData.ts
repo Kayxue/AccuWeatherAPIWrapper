@@ -326,15 +326,15 @@ export interface IHourlyForecastData {
      */
     IndoorRelativeHumidity?: number;
     /**
-     * 	Visibility Data. (Will be undefined if ForecastAPI.details is false)
+     * Visibility Data. (Will be undefined if ForecastAPI.details is false)
      */
     Visibility?: IValueWithUnit;
     /**
-     * 	Celling Data. (Will be undefined if ForecastAPI.details is false)
+     * Celling Data. (Will be undefined if ForecastAPI.details is false)
      */
     Ceiling?: IValueWithUnit;
     /**
-     * 	Measure of the strength of the ultraviolet radiation from the sun. (Will be undefined if ForecastAPI.details is false)
+     * Measure of the strength of the ultraviolet radiation from the sun. (Will be undefined if ForecastAPI.details is false)
      */
     UVIndex?: number;
     /**
@@ -394,7 +394,7 @@ export interface IHourlyForecastData {
      */
     MobileLink: string;
     /**
-     * 	Link to the hourly forecast for the requested location on AccuWeather`s web site.
+     * Link to the hourly forecast for the requested location on AccuWeather`s web site.
      */
     Link: string;
 }
