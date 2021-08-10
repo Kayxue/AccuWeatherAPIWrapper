@@ -35,7 +35,7 @@ npm install accu-weather-api-wrapper
 ```ts
 import AccuWeatherClient from "accu-weather-wrapper";
 
-const client=new AccuWeatherClient({
+const client = new AccuWeatherClient({
     apikey: "key",     //Required. Accu Weather API key.
     language: "zh-tw", //Optional. Language of retrieve data. Default: "en-us
     detail: true,      //Optional. Whether return full object when searching. Default: false
