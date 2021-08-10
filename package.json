@@ -1,7 +1,7 @@
 {
     "name": "accu-weather-api-wrapper",
-    "version": "1.0.4",
-    "description": "API wrapper of Accu Weather",
+    "version": "1.0.5",
+    "description": "Wrapper of Accu Weather API",
     "main": "src/index.js",
     "types": "src/index.d.ts",
     "author": "Kayxue",
