@@ -6,7 +6,7 @@
 [![Github Package Version](http://img.shields.io/github/package-json/v/Kayxue/AccuWeatherAPIWrapper?style=for-the-badge&logo=git)](https://github.com/Kayxue/AccuWeatherAPIWrapper)
 [![Type Definitions](http://img.shields.io/npm/types/accu-weather-api-wrapper?style=for-the-badge&logo=typescript)](https://www.npmjs.com/package/accu-weather-api-wrapper)
 
-Full Wrapper of Accu Weather API
+Wrapper of Accu Weather API
 
 ## Now avalivable APIs:
 
