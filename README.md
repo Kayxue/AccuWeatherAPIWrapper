@@ -28,7 +28,7 @@ npm install accu-weather-api-wrapper
 
 ## Basic Usages
 
-### Import client which includes all apis:
+### 1.Import client which includes all apis:
 
 #### TypeScript:
 
