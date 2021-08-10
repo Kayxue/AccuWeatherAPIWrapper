@@ -56,7 +56,7 @@ client.currentConditions.currentCondition("4-315078_1_AL").then(console.log)
 #### JavaScript
 
 ```js
-const AccuWeatherClient =require("accu-weather-wrapper").default;
+const AccuWeatherClient = require("accu-weather-wrapper").default;
 
 const client = new AccuWeatherClient({
     apikey: "key",     //Required. Accu Weather API key.
