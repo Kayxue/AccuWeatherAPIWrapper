@@ -61,6 +61,10 @@ export default class AccuWeatherClient {
      * Forecast API Client
      */
     forecast: ForecastAPI;
+    /**
+     * Current Condition API Client
+     */
+    currentConditions: CurrentConditionAPI;
     constructor(options: IInitOptions);
 }
 export { LocationAPI, ForecastAPI, IDailyForecastData, IHourlyForecastData, IRegionData, ICountryData, ICityData, IAutoCompleteSearchData, IAdminAreaData, IDayNightWeatherSummary, IValueWithUnit, IHeadlineData, IDailyForcastData, ICityDetails, ITopCitiesCurrentConditionData, IBaseCityData, IMetricAndImperialData, CurrentConditionAPI, APIClientBase, AccuWeatherAPIError, ICurrentConditionData, };

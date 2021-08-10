@@ -28,7 +28,7 @@ npm install accu-weather-api-wrapper
 
 ## Basic Usages
 
-### 1.Import client which includes all apis:
+### 1. Using client which includes all api clients:
 
 #### TypeScript:
 
@@ -75,3 +75,53 @@ client.forecast.getDailyForecast(1,"4-315078_1_AL").then(console.log)
 //Get current conditions data
 client.currentConditions.currentCondition("4-315078_1_AL").then(console.log)
 ```
+
+### 2. Using single API Client:
+
+#### TypeScript:
+
+```ts
+import { LocationAPI } from "accu-weather-wrapper";
+
+const client = new LocationAPI({
+    apikey: "key", //Required. Accu Weather API key.
+    language: "zh-tw", //Optional. Language of retrieve data. Default: "en-us
+    detail: true, //Optional. Whether return full object when searching. Default: false
+    offset: 100, //Optional. The limit that determines the first resource to be returned. Default: 100
+});
+
+//Get city data
+client.citySearch("Taipei").then(console.log);
+```
+
+#### JavaScript
+
+```js
+const { LocationAPI } = require("accu-weather-wrapper");
+
+const client = new LocationAPI({
+    apikey: "key", //Required. Accu Weather API key.
+    language: "zh-tw", //Optional. Language of retrieve data. Default: "en-us
+    detail: true, //Optional. Whether return full object when searching. Default: false
+    offset: 100, //Optional. The limit that determines the first resource to be returned. Default: 100
+});
+
+//Get city data
+client.citySearch("Taipei").then(console.log);
+```
+
+## Documentation
+
+https://accuweatherapiwrapperdocs.pages.dev/classes/APIClientBase
+
+## API Provider
+
+Accu Weather Company: https://developer.accuweather.com/apis
+
+## Issue & Support
+
+If you have any question to ask or bugs to report, you can open issue on github:
+https://github.com/Kayxue/AccuWeatherAPIWrapper
+
+Or join my discord server to get help:
+(Not finished yet)
