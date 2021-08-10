@@ -8,7 +8,7 @@
 
 Wrapper of Accu Weather API
 
-## Now avalivable APIs:
+## Now avalivable APIs of this package:
 
 -   [x] Location API
 -   [x] Forecast API
