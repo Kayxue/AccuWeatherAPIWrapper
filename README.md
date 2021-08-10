@@ -112,7 +112,7 @@ client.citySearch("Taipei").then(console.log);
 
 ## Documentation
 
-https://accuweatherapiwrapperdocs.pages.dev/classes/APIClientBase
+https://accuweatherapiwrapperdocs.pages.dev
 
 ## API Provider
 
