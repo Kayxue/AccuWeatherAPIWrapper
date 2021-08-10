@@ -37,7 +37,7 @@ import AccuWeatherClient from "accu-weather-wrapper";
 
 const client = new AccuWeatherClient({
     apikey: "key",     //Required. Accu Weather API key.
-    language: "zh-tw", //Optional. Language of retrieve data. Default: "en-us
+    language: "en-us", //Optional. Language of retrieve data. Default: "en-us
     detail: true,      //Optional. Whether return full object when searching. Default: false
     offset: 100,       //Optional. The limit that determines the first resource to be returned. Default: 100
     metric: true;      //Optional. Whether or not to return metric values. Default: false
@@ -60,7 +60,7 @@ const AccuWeatherClient =require("accu-weather-wrapper").default;
 
 const client = new AccuWeatherClient({
     apikey: "key",     //Required. Accu Weather API key.
-    language: "zh-tw", //Optional. Language of retrieve data. Default: "en-us
+    language: "en-us", //Optional. Language of retrieve data. Default: "en-us
     detail: true,      //Optional. Whether return full object when searching. Default: false
     offset: 100,       //Optional. The limit that determines the first resource to be returned. Default: 100
     metric: true;      //Optional. Whether or not to return metric values. Default: false
@@ -85,7 +85,7 @@ import { LocationAPI } from "accu-weather-wrapper";
 
 const client = new LocationAPI({
     apikey: "key", //Required. Accu Weather API key.
-    language: "zh-tw", //Optional. Language of retrieve data. Default: "en-us
+    language: "en-us", //Optional. Language of retrieve data. Default: "en-us
     detail: true, //Optional. Whether return full object when searching. Default: false
     offset: 100, //Optional. The limit that determines the first resource to be returned. Default: 100
 });
@@ -101,7 +101,7 @@ const { LocationAPI } = require("accu-weather-wrapper");
 
 const client = new LocationAPI({
     apikey: "key", //Required. Accu Weather API key.
-    language: "zh-tw", //Optional. Language of retrieve data. Default: "en-us
+    language: "en-us", //Optional. Language of retrieve data. Default: "en-us
     detail: true, //Optional. Whether return full object when searching. Default: false
     offset: 100, //Optional. The limit that determines the first resource to be returned. Default: 100
 });
