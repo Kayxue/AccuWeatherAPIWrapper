@@ -80,6 +80,10 @@ export default class AccuWeatherClient {
      * Forecast API Client
      */
     public forecast: ForecastAPI;
+    /**
+     * Current Condition API Client
+     */
+    public currentConditions: CurrentConditionAPI;
 
     public constructor(options: IInitOptions) {
         this.apikey = options.apikey;
@@ -89,6 +93,7 @@ export default class AccuWeatherClient {
         this.metric = options.metric ?? false;
         this.location = new LocationAPI(options);
         this.forecast = new ForecastAPI(options);
+        this.currentConditions = new CurrentConditionAPI(options);
     }
 }
 
