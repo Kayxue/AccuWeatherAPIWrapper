@@ -85,7 +85,7 @@ import { LocationAPI } from "accu-weather-wrapper";
 
 const client = new LocationAPI({
     apikey: "key", //Required. Accu Weather API key.
-    language: "en-us", //Optional. Language of retrieve data. Default: "en-us
+    language: "en-us", //Optional. Language of retrieve data. Default: "en-us"
     detail: true, //Optional. Whether return full object when searching. Default: false
     offset: 100, //Optional. The limit that determines the first resource to be returned. Default: 100
 });
@@ -101,7 +101,7 @@ const { LocationAPI } = require("accu-weather-wrapper");
 
 const client = new LocationAPI({
     apikey: "key", //Required. Accu Weather API key.
-    language: "en-us", //Optional. Language of retrieve data. Default: "en-us
+    language: "en-us", //Optional. Language of retrieve data. Default: "en-us"
     detail: true, //Optional. Whether return full object when searching. Default: false
     offset: 100, //Optional. The limit that determines the first resource to be returned. Default: 100
 });
