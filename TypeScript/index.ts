@@ -110,7 +110,7 @@ export {
     IDayNightWeatherSummary,
     IValueWithUnit,
     IHeadlineData,
-    IDailyForecastsData as IDailyForcastData,
+    IDailyForecastsData,
     ICityDetails,
     ITopCitiesCurrentConditionData,
     IBaseCityData,
