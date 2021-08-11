@@ -7,7 +7,7 @@ import {
     IHourlyForecastData,
     IDayNightWeatherSummary,
     IHeadlineData,
-    IDailyForcastData,
+    IDailyForecastsData,
 } from "./Interfaces/ForecastAPIData";
 import {
     IAdminAreaData,
@@ -110,7 +110,7 @@ export {
     IDayNightWeatherSummary,
     IValueWithUnit,
     IHeadlineData,
-    IDailyForcastData,
+    IDailyForecastsData as IDailyForcastData,
     ICityDetails,
     ITopCitiesCurrentConditionData,
     IBaseCityData,

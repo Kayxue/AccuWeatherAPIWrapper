@@ -12,7 +12,7 @@ export interface IDailyForecastData {
     /**
      * DailyForecast Data
      */
-    DailyForecasts: IDailyForcastData[];
+    DailyForecasts: IDailyForecastsData[];
 }
 
 /**
@@ -63,7 +63,7 @@ export interface IHeadlineData {
  * Fields description are from Accu Weather API playground:
  * {@link https://developer.accuweather.com/accuweather-forecast-api/apis/get/forecasts/v1/daily/1day/%7BlocationKey%7D}
  */
-export interface IDailyForcastData {
+export interface IDailyForecastsData {
     /**
      * DateTime of the forecast, displayed in ISO8601 format.
      */
