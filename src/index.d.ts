@@ -2,7 +2,7 @@ import LocationAPI from "./API/LocationAPIClient";
 import ForecastAPI from "./API/ForecastAPIClient";
 import CurrentConditionAPI from "./API/CurrentConditionAPIClient";
 import APIClientBase from "./API/APIClientBase";
-import { IDailyForecastData, IHourlyForecastData, IDayNightWeatherSummary, IHeadlineData, IDailyForcastData } from "./Interfaces/ForecastAPIData";
+import { IDailyForecastData, IHourlyForecastData, IDayNightWeatherSummary, IHeadlineData, IDailyForecastsData } from "./Interfaces/ForecastAPIData";
 import { IAdminAreaData, IAutoCompleteSearchData, IBaseCityData, ICityData, ICityDetails, ICountryData, IRegionData } from "./Interfaces/LocationAPIData";
 import { ITopCitiesCurrentConditionData, ICurrentConditionData } from "./Interfaces/CurrentConditionAPIData";
 import { IValueWithUnit, IMetricAndImperialData } from "./Interfaces/Other";
@@ -67,4 +67,4 @@ export default class AccuWeatherClient {
     currentConditions: CurrentConditionAPI;
     constructor(options: IInitOptions);
 }
-export { LocationAPI, ForecastAPI, IDailyForecastData, IHourlyForecastData, IRegionData, ICountryData, ICityData, IAutoCompleteSearchData, IAdminAreaData, IDayNightWeatherSummary, IValueWithUnit, IHeadlineData, IDailyForcastData, ICityDetails, ITopCitiesCurrentConditionData, IBaseCityData, IMetricAndImperialData, CurrentConditionAPI, APIClientBase, AccuWeatherAPIError, ICurrentConditionData, };
+export { LocationAPI, ForecastAPI, IDailyForecastData, IHourlyForecastData, IRegionData, ICountryData, ICityData, IAutoCompleteSearchData, IAdminAreaData, IDayNightWeatherSummary, IValueWithUnit, IHeadlineData, IDailyForecastsData as IDailyForcastData, ICityDetails, ITopCitiesCurrentConditionData, IBaseCityData, IMetricAndImperialData, CurrentConditionAPI, APIClientBase, AccuWeatherAPIError, ICurrentConditionData, };
