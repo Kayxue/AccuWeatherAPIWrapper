@@ -24,36 +24,36 @@ export interface ITopCitiesCurrentConditionData extends IBaseCityData {
  */
 export interface ICurrentConditionData extends Omit<ITopCitiesCurrentConditionData, keyof IBaseCityData> {
     LocalSource: {
-        Id: 7;
-        Name: "Huafeng";
-        WeatherCode: "01";
+        Id: number;
+        Name: string;
+        WeatherCode: string;
     };
     RealFeelTemperature?: IMetricAndImperialData;
     RealFeelTemperatureShade?: IMetricAndImperialData;
-    RelativeHumidity?: 74;
-    IndoorRelativeHumidity?: 74;
+    RelativeHumidity?: number;
+    IndoorRelativeHumidity?: number;
     DewPoint?: IMetricAndImperialData;
     Wind?: {
         Direction: {
-            Degrees: 0;
-            Localized: "北";
-            English: "N";
+            Degrees: number;
+            Localized: string;
+            English: string;
         };
         Speed: IMetricAndImperialData;
     };
     WindGust?: {
         Speed: IMetricAndImperialData;
     };
-    UVIndex?: 2;
-    UVIndexText?: "低";
+    UVIndex?: number;
+    UVIndexText?: string;
     Visibility?: IMetricAndImperialData;
-    ObstructionsToVisibility?: "";
-    CloudCover?: 91;
+    ObstructionsToVisibility?: string;
+    CloudCover?: number;
     Ceiling?: IMetricAndImperialData;
     Pressure?: IMetricAndImperialData;
     PressureTendency?: {
-        LocalizedText: "連續";
-        Code: "S";
+        LocalizedText: string;
+        Code: string;
     };
     Past24HourTemperatureDeparture?: IMetricAndImperialData;
     ApparentTemperature?: IMetricAndImperialData;
