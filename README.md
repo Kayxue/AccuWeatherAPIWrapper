@@ -1,7 +1,7 @@
 # Accu Weather API Wrapper
 
-> Updated in version 1.0.9:  
-> Fixed type annotations of some interfaces
+> Updated in version 1.1.0:  
+> Fixed bugs of getHourlyForecast function
 
 [![NPM version](http://img.shields.io/npm/v/accu-weather-api-wrapper/latest?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/accu-weather-api-wrapper)
 [![Package Size](https://img.shields.io/bundlephobia/min/@latest/accu-weather-api-wrapper?label=Bundle-size&style=for-the-badge&logo=npm)](https://www.npmjs.com/package/accu-weather-api-wrapper)
