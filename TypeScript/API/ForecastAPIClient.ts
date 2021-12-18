@@ -71,7 +71,7 @@ export default class ForecastAPI extends APIClientBase {
     ): Promise<IHourlyForecastData[]> {
         try {
             const { data } = await this.axiosInstance.get(
-                `/daily/${hours}hour/${locationKey}`,
+                `/hourly/${hours}hour/${locationKey}`,
             );
 
             return data;
